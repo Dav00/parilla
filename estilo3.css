@@ -1,0 +1,36 @@
+/* contenido */
+body{
+	font-size:26px;
+}
+#contenedor{
+	width:396px; /* calculadas segun contenidos */
+    height:396px;
+	margin-top:10px;
+	padding:10px;
+	border: 2px solid #000;
+}
+.tipo0,.tipo1,.tipo2{
+	text-align:center;	/* centrado horizontal */
+    height:40px;	
+	line-height:40px; /* centrado vertical */
+	/*fuente: https://www.dariobf.com/centrar-verticalmente-con-css-6-formas-diferentes-de-lograrlo/*/
+}
+.tipo0{
+    width:80px;	
+	border: 1px solid;	
+}
+.tipo1,.tipo2{
+    width:40px;
+	float:left;
+	margin:1px;
+}
+.tipo1 {
+	background-color:pink;
+	color:black;
+	border: 1px solid #000;
+}
+.tipo2 {
+	background-color: purple;
+	color:white;
+	border: 1px solid #000;
+}
